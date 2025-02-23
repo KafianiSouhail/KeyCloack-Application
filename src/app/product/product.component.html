@@ -1,0 +1,18 @@
+<mat-card class="example-card" appearance="outlined">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title> {{title()}}</mat-card-title>
+    <mat-card-subtitle>{{price() | currency: 'US'  }}</mat-card-subtitle>
+  </mat-card-header>
+ <div class="img-container">
+  <img class="img" mat-card-image src="/chair-pic.jpg" alt="Photo of a Shiba Inu">
+ </div>
+  
+  <div class="product-description">
+    <mat-card-content>
+      <p>
+        {{description()}}
+      </p>
+    </mat-card-content>
+  </div>
+</mat-card>

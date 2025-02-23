@@ -1,0 +1,13 @@
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    
+    max-width: 300px;
+    text-align: center;
+}
+.product-description{
+    grid-column: 1 / span 4;
+}

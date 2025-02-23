@@ -1,0 +1,6 @@
+<div class="products-container">
+
+  @for(product of productList(); track product.id){
+    <app-product [title]="product.title" [description]="product.description" [price]="product.price" ></app-product>
+    }
+</div>
